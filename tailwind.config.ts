@@ -57,6 +57,32 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        jarvis: {
+          cyan: "hsl(var(--jarvis-cyan))",
+          blue: "hsl(var(--jarvis-blue))",
+          glow: "hsl(var(--jarvis-glow))",
+          dark: "hsl(var(--jarvis-dark))",
+          surface: "hsl(var(--jarvis-surface))",
+          border: "hsl(var(--jarvis-border))",
+        },
+      },
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-secondary': 'var(--gradient-secondary)',
+        'gradient-glow': 'var(--gradient-glow)',
+        'gradient-hologram': 'var(--gradient-hologram)',
+      },
+      boxShadow: {
+        'glow': 'var(--shadow-glow)',
+        'glow-strong': 'var(--shadow-strong)',
+        'card': 'var(--shadow-card)',
+      },
+      animation: {
+        'hologram-shift': 'hologram-shift 8s ease-in-out infinite',
+        'float': 'float 15s infinite linear',
+        'scan-line': 'scan-line 3s ease-in-out infinite',
+        'pulse-glow': 'pulse-glow 2s ease-in-out infinite',
+        'data-stream': 'data-stream 2s ease-in-out infinite',
       },
       borderRadius: {
         lg: "var(--radius)",
